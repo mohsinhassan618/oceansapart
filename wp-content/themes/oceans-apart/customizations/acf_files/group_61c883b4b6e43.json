@@ -1,0 +1,115 @@
+{
+    "key": "group_61c883b4b6e43",
+    "title": "Oceans Apart Fields",
+    "fields": [
+        {
+            "key": "field_61c883b9646c8",
+            "label": "Ocean Apart Fields",
+            "name": "ocean_apart_fields",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_61c883e1dc61a": {
+                    "key": "layout_61c883e1dc61a",
+                    "name": "ocean_apart_section",
+                    "label": "Ocean Apart Section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_61c88ca4646c9",
+                            "label": "Featured Image",
+                            "name": "featured_image",
+                            "type": "image",
+                            "instructions": "If no item is selected a default image will be displayed.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_61c88cf0646ca",
+                            "label": "Section Heading",
+                            "name": "section_heading",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "It's a State of Mind",
+                            "placeholder": "Please enter heading here",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_61c88d4c646cb",
+                            "label": "Section Details",
+                            "name": "section_details",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Shop our most colorful sets in mood-boosting hues - we've got something for everyone.",
+                            "placeholder": "Please add the section details here.",
+                            "maxlength": "",
+                            "rows": "",
+                            "new_lines": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": "2"
+                }
+            },
+            "button_label": "Add Oceans Apart Section",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-oa-task.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1640554379
+}
