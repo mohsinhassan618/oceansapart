@@ -1,13 +1,13 @@
 # Task Details
 
 ## Code requirements
-- [x] ACF PRO with Flexible Content,
-- [x] ACF JSON sync,
-- [x] Foundation Sites ZURB (v6.6.3/SCSS) should be register as NPM dependence,
-- [x] XY-Grid provided by Foundation ZURB sites (building semantically) is required,
-- [x] BEM methodology is required,
-- [x] Use webpack.js to compile your SCSS code into CSS (minified production output),
-- [x] PHP (7.4) code should follow @PSR2 standards, 
+- ✔ ACF PRO with Flexible Content,
+- ✔ ACF JSON sync,
+- ✔ Foundation Sites ZURB (v6.6.3/SCSS) should be register as NPM dependence,
+- ✔ XY-Grid provided by Foundation ZURB sites (building semantically) is required,
+- ✔ BEM methodology is required,
+- ✔ Use webpack.js to compile your SCSS code into CSS (minified production output),
+- ✔ PHP (7.4) code should follow @PSR2 standards, 
 
 ## Details
 
