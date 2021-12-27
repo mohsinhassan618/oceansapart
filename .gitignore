@@ -2,6 +2,9 @@
 /*
 !.gitignore
 !.gitattributes
+!LICENSE
+!license.txt
+!readme.md
 !wp-content/
 
 # Ignore everything in the "wp-content" directory, except the "plugins"
