@@ -14,7 +14,7 @@
 ### Settings/Configurations
 - Install/Activate the theme Oceans Apart
 - Enable ACF Plugin 
-- Import the Fields Group 
+- Import the ACF Fields 
 - Create a page and set page template to Oceans Apart Task
 - Add/edit the Oceans Apart Fields at the page bottom (on-page edit screen) 
 - That's all
@@ -27,10 +27,11 @@ wp-content\themes\oceans-apart\customizations\acf_files
 All customizations related to PHP can be find in the following file: wp-content\themes\oceans-apart\customizations\OceanApartCustomizations.php
 
 ### Webpack and Scss
-Entry File for Webpack: 
-wp-content\themes\oceans-apart\assets\src\index.js
 
-Scss path: 
-wp-content\themes\oceans-apart\assets\scss\app.scss
+Webpack Path: theme root
+
+Entry File for Webpack: wp-content\themes\oceans-apart\assets\src\index.js
+
+Scss path: wp-content\themes\oceans-apart\assets\scss\app.scss
 
 Compile assets Command: npm run webpack: production
