@@ -20,13 +20,17 @@
 - That's all
 
 ### ACF Local JSON
-ACF folder path: wp-content\themes\oceans-apart\customizations\acf_files
+ACF folder path: 
+wp-content\themes\oceans-apart\customizations\acf_files
 
 ### PHP Code PSR2 Standards
 All customizations related to PHP can be find in the following file: wp-content\themes\oceans-apart\customizations\OceanApartCustomizations.php
 
 ### Webpack and Scss
-Entry File for Webpack: wp-content\themes\oceans-apart\assets\src\index.js
-Scss path: wp-content\themes\oceans-apart\assets\scss\app.scss
+Entry File for Webpack: 
+wp-content\themes\oceans-apart\assets\src\index.js
+
+Scss path: 
+wp-content\themes\oceans-apart\assets\scss\app.scss
 
 Compile assets Command: npm run webpack: production
