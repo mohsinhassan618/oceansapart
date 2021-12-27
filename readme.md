@@ -34,4 +34,4 @@ Entry File for Webpack: wp-content\themes\oceans-apart\assets\src\index.js
 
 Scss path: wp-content\themes\oceans-apart\assets\scss\app.scss
 
-Compile assets Command: npm run webpack: production
+Compile assets Command: npm run webpack:production
