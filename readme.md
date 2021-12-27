@@ -23,7 +23,7 @@
 ACF folder path: wp-content\themes\oceans-apart\customizations\acf_files
 
 ### PHP Code PSR2 Standards
-All cutomizations relatedd to PHP can be find in the following file: wp-content\themes\oceans-apart\customizations\OceanApartCustomizations.php
+All customizations related to PHP can be find in the following file: wp-content\themes\oceans-apart\customizations\OceanApartCustomizations.php
 
 ### Webpack and Scss
 Entry File for Webpack: wp-content\themes\oceans-apart\assets\src\index.js
