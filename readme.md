@@ -15,8 +15,9 @@
 - Install/Activate the theme Oceans Apart
 - Enable ACF Plugin 
 - Import the ACF Fields 
-- Create a page and set page template to Oceans Apart Task
+- Create a page and set Page Template to Oceans Apart Task
 - Add/edit the Oceans Apart Fields at the page bottom (on-page edit screen) 
+- View the page for implemented design
 - That's all
 
 ### ACF Local JSON
@@ -24,7 +25,8 @@ ACF folder path:
 wp-content\themes\oceans-apart\customizations\acf_files
 
 ### PHP Code PSR2 Standards
-All customizations related to PHP can be find in the following file: wp-content\themes\oceans-apart\customizations\OceanApartCustomizations.php
+All customizations related to PHP with PSR2 Standards can be find in the following file: 
+wp-content\themes\oceans-apart\customizations\OceanApartCustomizations.php
 
 ### Webpack and Scss
 
