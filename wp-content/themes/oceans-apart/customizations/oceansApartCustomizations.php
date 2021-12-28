@@ -1,25 +1,25 @@
 <?php declare(strict_types=1); //@PSR2 standards,
 namespace OceansApart;
 
-class OceanApartCustomizations
+class oceansApartCustomizations
 {
     /**
-     * The unique instance of the plugin.
+     * The unique instance of the Class.
      * @var singleton object
      */
-    private static $pluginInstance;
+    private static $classInstance;
 
 
     /**
-     * Gets an instance of our plugin.
+     * Gets an instance of our Class.
      * @return object
      */
     public static function instance():object
     {
-        if (null === self::$pluginInstance) {
-            self::$pluginInstance = new self();
+        if (null === self::$classInstance) {
+            self::$classInstance = new self();
         }
-        return self::$pluginInstance;
+        return self::$classInstance;
     }
 
     /**
@@ -27,7 +27,7 @@ class OceanApartCustomizations
      */
     private function __construct()
     {
-        add_action('wp_enqueue_scripts', [$this, 'OceansApartCustomScripts'], 12);
+        add_action('wp_enqueue_scripts', [$this, 'oceansApartCustomScripts'], 12);
         add_filter('acf/settings/save_json', [$this, 'acfJsonSavePoint']);
         add_filter('acf/settings/load_json', [$this, 'acfJsonLoadPoint']);
     }

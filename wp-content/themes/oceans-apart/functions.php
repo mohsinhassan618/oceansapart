@@ -156,8 +156,8 @@ add_action( 'wp_enqueue_scripts', 'oceans_apart_scripts' );
 
 
 
-require_once get_template_directory() .'/customizations/OceanApartCustomizations.php';
-\OceansApart\OceanApartCustomizations::instance();
+require_once get_template_directory() .'/customizations/oceansApartCustomizations.php';
+\OceansApart\oceansApartCustomizations::instance();
 
 /**
  * Implement the Custom Header feature.

@@ -42,7 +42,7 @@ module.exports = {
                 loader: "sass-loader",
                 options: {
                     sassOptions: {
-                        includePaths: ["./assets//scss", "./node_modules","./node_modules/foundation-sites/scss"]
+                        includePaths: ["./assets/scss", "./node_modules","./node_modules/foundation-sites/scss"]
                     }
                 }
             }]
