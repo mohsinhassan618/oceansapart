@@ -35,8 +35,8 @@ class OceanApartCustomizations
     public function oceansApartCustomScripts()
     {
 
-        wp_register_script('foundation_script', get_template_directory_uri() . '/assets//build/app.min.js');
-        wp_register_style('foundation_style', get_template_directory_uri() . '/assets//build/app.min.css');
+        wp_register_script('foundation_script', get_stylesheet_directory_uri() . '/assets//build/app.min.js');
+        wp_register_style('foundation_style', get_stylesheet_directory_uri() . '/assets//build/app.min.css');
         wp_enqueue_style('foundation_style');
         wp_enqueue_script('foundation_script');
     }
@@ -62,3 +62,4 @@ class OceanApartCustomizations
         return $paths;
     }
 }
+

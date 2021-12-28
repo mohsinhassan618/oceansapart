@@ -13,14 +13,6 @@ $grid-margin-gutters:12px;
     background-color: #ffe5e2;
   }
 
-  &__content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    min-height: 200px;
-  }
   &__image{
     display: flex;
     justify-content: center;
@@ -47,6 +39,8 @@ $grid-margin-gutters:12px;
 
 
 .page-template-page-oa-task {
+  margin:12px;
+
   header {
     visibility: hidden;
   }

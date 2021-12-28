@@ -23,7 +23,7 @@ get_header();
 			?>
             <section class="grid-container oa-task" >
                 <div class="grid-x grid-margin-x oa-task__background">
-                    <div class="medium-6 large-7 cell">
+                    <div class="medium-6 large-7 cell ">
                             <figure class="oa-task__image">
                                 <img
                                     src="<?php echo isset($featuredImage['url']) ? $featuredImage['url']:$defaultImage;  ?>"
@@ -31,8 +31,8 @@ get_header();
                                 >
                             </figure>
                     </div>
-                    <div class="medium-6 large-5 cell text-center ">
-                        <div class="oa-task__content">
+                    <div class="medium-6 large-5 cell text-center align-self-middle ">
+                        <div class="">
                             <h3><?php echo $sectionHeading; ?></h3>
                             <p><?php echo  $sectionDetails; ?></p>
                         </div>
