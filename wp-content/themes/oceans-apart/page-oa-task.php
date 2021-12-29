@@ -31,7 +31,7 @@ get_header();
                                 >
                             </figure>
                     </div>
-                    <div class="medium-6 large-5 cell text-center align-self-middle ">
+                    <div class="medium-6 large-5 cell  align-self-middle ">
                         <div class="oa-task__content">
                             <h3><?php echo $sectionHeading; ?></h3>
                             <p><?php echo  $sectionDetails; ?></p>
